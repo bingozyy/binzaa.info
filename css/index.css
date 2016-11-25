@@ -1,5 +1,62 @@
-body{
-    background-color: rgba(53, 1, 56, 0.87);
+html{
     height: 100%;
-    width: 100%;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+
+}
+
+
+/*左侧栏*/
+.menu-box-left{
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 30%;
+
+}
+
+ .menu-box-tilt{
+    position: absolute;
+     z-index: 1;
+     top: 0;
+     left: -50%;
+    background-color: #df6250;
+    height: 100%;
+    width: 140%;
+    transform: skewX(-20deg);
+}
+
+.menu-box-content{
+position: absolute;
+    margin: 5rem 0 0 6rem;
+    z-index: 2;
+}
+
+
+
+
+
+/*右侧栏*/
+
+.menu-box-right{
+    text-align: center;
+    float: right;
+    height: 100%;
+    width: 15%;
+    background-color: #00a0df;
+}
+
+
+
+
+/*内容部分*/
+.content-box{
+    float: right;
+    height: 100%;
+    width: 80%;
+    background-color: #FFFFFF;
 }
